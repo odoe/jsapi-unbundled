@@ -1,7 +1,7 @@
-module.exports = {
+export default {
   debug: false,
   nodeResolve: true,
-  open: "index.html",
+  open: "/",
   port: 5000,
   watch: true,
   plugins: [

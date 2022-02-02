@@ -4,13 +4,15 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "es-dev-server"
+    "start": "web-dev-server"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@arcgis/core": "^4.23.0-next.20220131",
-    "es-dev-server": "^2.1.0"
+    "@arcgis/core": "^4.23.0-next.20220131"
+  },
+  "devDependencies": {
+    "@web/dev-server": "^0.1.29"
   }
 }
